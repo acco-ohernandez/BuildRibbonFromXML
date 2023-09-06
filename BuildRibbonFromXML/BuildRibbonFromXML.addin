@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>BuildRibbonFromXML</Name>
+    <Assembly>BuildRibbonFromXML.dll</Assembly>
+    <FullClassName>BuildRibbonFromXML.App</FullClassName>
+    <ClientId>196d8e93-3f72-49c3-814c-a17f0601600a</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>

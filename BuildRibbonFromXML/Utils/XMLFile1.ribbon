@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Copied from: 00.BuildRibbonFromXML\Templates\ButtonStructureTemplate.ribbon File and Version  -->
+<!-- Version 1.0.0 2023-03-14 -->
+<tab name="Btn_Xml_Sample">
+
+  <panel name="Stacked Items">
+    <stackeditems>
+      <button name="SingleButton"
+				classname="BuildRibbonFromXML.Command1"
+				text="Single Button"
+				tooltip="Test Clas Tooltip"
+				image="C:\Images\C_16x16.png"
+				largeimage="C:\Images\C_32x32.png"
+				tooltipimage="C:\Images\A_16x16.png"
+				contexthelp="https://www.google.com"/>
+    </stackeditems>
+
+    <stackeditems>
+      <button name="Button1"
+				classname="BuildRibbonFromXML.Command1"
+				text="Button 1"
+				tooltip="Test Clas Tooltip"
+				image="C:\Images\C_16x16.png"
+				largeimage="C:\Images\C_32x32.png"
+				tooltipimage="C:\Images\A_16x16.png"
+				contexthelp="https://www.google.com"/>
+      <button name="Button2"
+				classname="BuildRibbonFromXML.Command1"
+				text="Button 2"
+				tooltip="Test Clas Tooltip"
+				image="C:\Images\C_16x16.png"
+				largeimage="C:\Images\C_32x32.png"
+				tooltipimage="C:\Images\A_16x16.png"
+				contexthelp="https://www.google.com"/>
+      <button name="Button3"
+				classname="BuildRibbonFromXML.Command1"
+				text="Button 3"
+				tooltip="Test Clas Tooltip"
+				image="C:\Images\C_16x16.png"
+				largeimage="C:\Images\C_32x32.png"
+				tooltipimage="C:\Images\A_16x16.png"
+				contexthelp="https://www.google.com"/>
+    </stackeditems>
+
+    <stackeditems>
+      <pulldownbuttons name="pulldown-name" image="C:\Images\A_16x16.png">
+        <button name="PulldownButton1Name"
+                classname="BuildRibbonFromXML.Command1"
+                text="PulldownButton1"
+                tooltip="My button tooltip"
+                image="C:\Images\A_16x16.png"
+                largeimage="C:\Images\A_32x32.png"
+                tooltipimage=""
+                contexthelp=""/>
+        <button name="PulldownButton2Name"
+                classname="BuildRibbonFromXML.Command1"
+                text="PulldownButton2"
+                tooltip="My button tooltip"
+                image="C:\Images\A_16x16.png"
+                largeimage="C:\Images\A_32x32.png"
+                tooltipimage=""
+                contexthelp=""/>
+        <button name="PulldownButton3Name"
+                classname="BuildRibbonFromXML.Command1"
+                text="PulldownButton3"
+                tooltip="My button tooltip"
+                image="C:\Images\A_16x16.png"
+                largeimage="C:\Images\A_32x32.png"
+                tooltipimage=""
+                contexthelp=""/>
+        <button name="PulldownButton4Name"
+                classname="BuildRibbonFromXML.Command1"
+                text="PulldownButton4"
+                tooltip="My button tooltip"
+                image="C:\Images\A_16x16.png"
+                largeimage="C:\Images\A_32x32.png"
+                tooltipimage=""
+                contexthelp=""/>
+        <button name="PulldownButton5Name"
+                classname="BuildRibbonFromXML.Command1"
+                text="PulldownButton5"
+                tooltip="My button tooltip"
+                image="C:\Images\A_16x16.png"
+                largeimage="C:\Images\A_32x32.png"
+                tooltipimage=""
+                contexthelp=""/>
+      </pulldownbuttons>
+    </stackeditems>
+
+    <stackeditems>
+      <combobox name="CB - name"
+					itemtext=""
+					longdescription=""
+					tooltip=""
+					tooltipimage="">
+        <comboboxmember name="CBM - Name #1"
+                text="CBM - Text #1"
+                image="C:\Images\A_16x16.png"
+                groupname=""/>
+
+        <comboboxmember name="CBM - Name #2"
+                text="CBM - Text #2"
+                image="C:\Images\A_16x16.png"
+                groupname=""/>
+      </combobox>
+    </stackeditems>
+
+    <stackeditems>
+      <textbox name="TB - name"
+				   prompttext=""
+				   longdescription=""
+				   image="C:\Images\A_16x16.png"
+				   showimage=""
+				   tooltip=""
+				   tooltipimage=""/>
+    </stackeditems>
+  </panel>
+
+  <panel name="Split Buttons">
+    <splitbuttons>
+      <button name="projectname_classname #3"
+				  classname="BuildRibbonFromXML.Command1"
+				  text="Button 1"
+				  tooltip=""
+				  image=""
+				  largeimage="C:\Images\A_32x32.png"
+				  tooltipimage=""
+				  contexthelp=""/>
+      <button name="projectname_classname #4"
+				  classname="BuildRibbonFromXML.Command1"
+				  text="Button 2"
+				  tooltip=""
+				  image=""
+				  largeimage="C:\Images\A_32x32.png"
+				  tooltipimage=""
+				  contexthelp=""/>
+      <button name="projectname_classname #5"
+				  classname="BuildRibbonFromXML.Command1"
+				  text="Button 3"
+				  tooltip=""
+				  image="C:\Images\A_16x16.png"
+				  largeimage="C:\Images\A_32x32.png"
+				  tooltipimage=""
+				  contexthelp=""/>
+    </splitbuttons>
+  </panel>
+
+  <panel name="Radio Buttons">
+    <radiobuttons name="RG - name">
+      <togglebutton name="TB - name #1"
+						text="TB - text"
+						tooltip=""
+						largeimage="C:\Images\A_32x32.png" />
+      <togglebutton name="TB - name #2"
+						text="TB - text"
+						tooltip=""
+						largeimage="C:\Images\A_32x32.png" />
+      <togglebutton name="TB - name #3"
+						text="TB - text"
+						tooltip=""
+						largeimage="C:\Images\A_32x32.png" />
+    </radiobuttons>
+  </panel>
+
+  <panel name="Slideout Panel">
+    <slideoutpanel name="slideout panel - name">
+      <button name="projectname_classname - #6"
+				  classname="BuildRibbonFromXML.Command1"
+				  text="text"
+				  tooltip=""
+				  image="C:\Images\A_16x16.png"
+				  largeimage="C:\Images\A_32x32.png"
+				  tooltipimage=""
+				  contexthelp=""/>
+    </slideoutpanel>
+
+  </panel>
+
+</tab>
